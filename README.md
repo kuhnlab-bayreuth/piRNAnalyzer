@@ -4,11 +4,13 @@ piRNAnalyzer is a fully automated pipeline for the analysis of piRNAs in planari
 
 The piRNAnalyzer pipeline includes preprocessing of sequencing data, read mapping, annotation to genomic features, as well as quality control steps. It comes with all pre-built reference files necessary.
 
-Setup:
-Required third party programs (please make sure that these are properly set up and can be invoked from the command line):
--
--
--
+
+# Setup:
+
+Required third party programs
+(please make sure that these are properly set up and can be invoked from the command line):
+
+
 
 
 How to use:
