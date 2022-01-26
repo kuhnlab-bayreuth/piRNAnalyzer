@@ -24,9 +24,9 @@ R | 4.1.2 | https://www.r-project.org/ | R
 
 
 # How to use
-1. Download the piRNAnalyzer package and extract it to the desired directory
-2. Copy your raw data into the folder "01-Raw"
-3. Invoke the script "piRNAnalyzer.sh"
+1. Download the latest release of piRNAnalyzer and extract the zipped folder to the desired directory.
+2. Copy raw data into the folder "01-Raw" within piRNAnalyzer's folder structure.
+3. Invoke the bash script "piRNAnalyzer.sh".
 
 # Citation
 Will be added
