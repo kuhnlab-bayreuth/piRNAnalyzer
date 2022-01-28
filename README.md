@@ -32,6 +32,7 @@ Required R packages will be downloaded automatically if not already installed on
 A sample dataset is available for download at [GSE192524](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE192524)
 
 ### Command Line Options
+Flag | 
 -----|-----
 `-h` | print this help message
 `-p` | set the number of processor cores to be used (default: 4)
