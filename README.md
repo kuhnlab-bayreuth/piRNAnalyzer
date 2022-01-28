@@ -32,14 +32,15 @@ Required R packages will be downloaded automatically if not already installed on
 A sample dataset is available for download at [GSE192524](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE192524)
 
 ### Command Line Options
--h | print this help message
--p | set the number of processor cores to be used (default: 4)
--f | setting filter options for preprocessing (default:all)
-		all	perform all filtering steps during preprocessing
-		rRNA	only perform rRNA filtering
-		tRNA	only perform tRNA filtering
-		none	perform no additional filtering steps during preprocessing
--v | print software version
+-----|-----
+`-h` | print this help message
+`-p` | set the number of processor cores to be used (default: 4)
+`-f` | setting filter options for preprocessing (default:all)
+	| `all` | perform all filtering steps during preprocessing
+	| `rRNA` | only perform rRNA filtering
+	| `tRNA` | only perform tRNA filtering
+	| `none` | perform no additional filtering steps during preprocessing
+`-v` | print software version
 
 # Citation
 piRNAnalyzer is an automated version of the workflow presented in **DOI Will be added with link**.
