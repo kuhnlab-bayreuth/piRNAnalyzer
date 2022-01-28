@@ -36,11 +36,11 @@ Flag | Function
 -----|-----
 `-h` | print this help message
 `-p` | set the number of processor cores to be used (default: 4)
-`-f` | setting filter options for preprocessing (default:all)
-	`all` | perform all filtering steps during preprocessing
-	`rRNA` | only perform rRNA filtering
-	`tRNA` | only perform tRNA filtering
-	`none` | perform no additional filtering steps during preprocessing
+`-f` | setting filter options for preprocessing (default:all)	
+`all` | perform all filtering steps during preprocessing
+`rRNA` | only perform rRNA filtering
+`tRNA` | only perform tRNA filtering
+`none` | perform no additional filtering steps during preprocessing
 `-v` | print software version
 
 # Citation
