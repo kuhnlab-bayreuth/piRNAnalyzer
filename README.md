@@ -1,6 +1,6 @@
 # piRNAnalyzer
 
-piRNAnalyzer is a fully automated pipeline for the analysis of piRNAs in planarian small RNA Seq samples.
+piRNAnalyzer is a fully automated bash pipeline for the analysis of piRNAs in planarian small RNA Seq samples.
 
 The piRNAnalyzer pipeline includes preprocessing of sequencing data, read mapping, annotation to genomic features, as well as quality control steps. It comes with all pre-built reference files necessary.
 
@@ -22,13 +22,29 @@ samtools | 1.7 | http://www.htslib.org/ | samtools
 bedGraphtoBigWig | - | https://genome.ucsc.edu/goldenpath/help/bigWig.html | bedGraphToBigWig
 R | 4.1.2 | https://www.r-project.org/ | R 
 
+Required R packages will be downloaded automatically if not already installed on the user's system.
 
 # How to use
 1. Download the latest release of piRNAnalyzer and extract the zipped folder to the desired directory.
 2. Copy raw data into the folder "01-Raw" within piRNAnalyzer's folder structure.
-3. Invoke the bash script "piRNAnalyzer.sh".
+3. Invoke the bash script "piRNAnalyzer.sh". 
+
+A sample dataset is available for download at [GSE192524](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE192524)
+
+### Command Line Options
+-h	print this help message
+-p	set the number of processor cores to be used (default: 4)
+-f	setting filter options for preprocessing (default:all)
+		all	perform all filtering steps during preprocessing
+		rRNA	only perform rRNA filtering
+		tRNA	only perform tRNA filtering
+		none	perform no additional filtering steps during preprocessing
+-v	print software version
 
 # Citation
-Will be added
+piRNAnalyzer is an automated version of the workflow presented in **DOI Will be added with link**.
+
+Pittroff, A., Kim, I.V., Demtröder, T., Kuhn, C.D. (2022). Genome-wide analysis of planarian piRNAs. **EDIT CITATION DETAILS**  
+
 
 
