@@ -41,9 +41,9 @@ Filter Options:| <table> <tbody> <tr> <td>`all`</td> <td>perform all filtering s
 `-v` | print software version
 
 # Citation
-piRNAnalyzer is an automated version of the workflow presented in **DOI Will be added with link**.
+piRNAnalyzer is an automated version of the workflow presented in  DOI: 10.1007/978-1-0716-3275-8_3
 
-Pittroff, A., Kim, I.V., Demtröder, T., Kuhn, C.D. (2022). Genome-wide analysis of planarian piRNAs. **EDIT CITATION DETAILS**  
+Pittroff A, Kim IV, Demtröder T, Kuhn CD. Genome-Wide Analysis of Planarian piRNAs. Methods Mol Biol. 2023;2680:55-65. doi: 10.1007/978-1-0716-3275-8_3. PMID: 37428370.
 
 
 
